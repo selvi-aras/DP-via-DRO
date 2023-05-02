@@ -4,6 +4,10 @@ GitHub supplement of the paper _Differential Privacy via Distributionally Robust
 The preprint is available on [Optimization Online](https://optimization-online.org/2023/04/differential-privacy-via-distributionally-robust-optimization/) and [arXiv](https://arxiv.org/abs/2304.12681). The paper was presented at the [Robust Optimization Webinars](https://youtu.be/HIfNWrQ-NS4).
 
 
+## Description
+The following is a guide to use this repository.
+
+
 ## Thank You
 Thank you for your interest in our work. If you found this work useful in your research and/or applications, please star this repository and cite:
 ```
