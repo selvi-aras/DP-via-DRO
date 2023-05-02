@@ -7,9 +7,9 @@ The preprint is available on [Optimization Online](https://optimization-online.o
 ## Description
 The following is a guide to use this repository.
 <details>
-  <summary> <b>Section 4.1 - logsumexp over 2norm </b> </summary>
+  <summary> <b> Data Independent Noise </b> </summary>
   
-  The folder 'Data Independent Noise' includes the C++ codes for the data independent noise optimization.
+  This folder includes the C++ codes for the data independent noise optimization.
 </details>
 
 ## Thank You
