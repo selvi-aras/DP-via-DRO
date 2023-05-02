@@ -5,7 +5,7 @@ The preprint is available on [Optimization Online](https://optimization-online.o
 
 
 ## Description
-The following is a guide to use this repository.
+The following is a guide to use this repository. The folder "GitHub Appendices" includes the additional experiments and discussions that are supplied with the GitHub repository. We now explain the codes in the following. 
 <details>
   <summary> <b> Data Independent Noise </b> </summary>
   
@@ -38,6 +38,12 @@ The following is a guide to use this repository.
   
   This folder includes C++ compilation commands on the Imperial HPC's Linux Terminal as well as an example .PBS jobs file. 
 
+</details>
+
+<details>
+<summary> <b> ML Algorithms Julia </b> </summary>
+  
+  Implementations of ML algorithms (NB, PCD) in Julia. `analytic_gaussian.jl` has the Analytic Gaussian mechanism's Julia implementation (we adopted the original Python implementation in Julia). `compare.jl` has the standard logistic regression (LR) implementation in case one wants to benchmark the non-private optimal LR classifier (uses MOSEK solver). `grid_ell1_prep_main.jl`, `grid_ell1_prep_ub.jl`, `grid_ell1_prep_lb.jl` are the files generating the code for Tables 1,4,5. `interpret_results.jl` includes the analysis (p-values, in/out-sample comparison, etc.) of the DP naïve Bayes methods. `main.jl` is the main DP-NB function including the Gaussian, truncated Laplace, and our optimised data independent mechanism, `main_analytic.jl` is the same for analytic Gaussian (added later on, hence in another function), and `main_data_dependent.jl` is the data dependent noise mechanism version which also prepares files for noise distributions to be optimized in C++ with the help of the function in `read_distributions.jl`. `NB.jl` has helper functions for the naïve Bayes method, including the non-noisy counts/statistics. The noisy versions are computed in the file `sensitivites.jl`. The file `PCD_functions.jl` includes the PCD iteration functions to be called in the iterations of the DP PCD  algorithm. `PCD_histogram.jl` gives the histogram in the GitHub Additional Appendices. `PCD_interpret_results ... .jl` are the files we used to interpret PCD results. `PCD.jl` is the main function that runs the DP PCD algorithm, and PCD_multi.jl is the same which uses the data dependent noise (that was prepared in C++). `sample.jl` includes the functions that allow us to sample noise from various distributions. `train_test.jl` splits datasets into training and test-sets. The files `visualize_bounds ... .jl` were used to generate Figure 2.
 </details>
 
 
