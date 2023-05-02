@@ -10,6 +10,10 @@ The following is a guide to use this repository.
   <summary> <b> Data Independent Noise </b> </summary>
   
   This folder includes the C++ codes for the data independent noise optimization.
+
+<summary> <b> Data Dependent Noise </b> </summary>
+  
+  This folder includes the C++ codes for the data dependent noise optimization.
 </details>
 
 ## Thank You
