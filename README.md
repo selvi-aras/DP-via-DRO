@@ -26,6 +26,13 @@ The following is a guide to use this repository.
 
 </details>
 
+<details>
+<summary> <b> Visualization </b> </summary>
+  
+  This folder has examples of Python3 visualizations that were used to generate Figures 3 and 4.
+
+</details>
+
 ## Final Notes
 The following scripts are also available upon request:
 - The C++ codes that we supplied are the simple implementation of our cutting-plane algorithms. We have several modifications that were used on the HPC to run parallel jobs.
