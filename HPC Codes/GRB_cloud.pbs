@@ -1,0 +1,11 @@
+#PBS -l select=1:ncpus=1:mem=8GB:ompthreads=1
+  
+#PBS -l walltime=06:00:00
+#PBS -J 1101-1200
+
+export PATH="$PATH:/rds/general/user/.../home/julia-1.7.2/bin"
+
+cd $PBS_O_WORKDIR
+
+julia --threads 1 PCD_multi.jl
+

@@ -1,0 +1,7 @@
+#PBS -l select=1:ncpus=1:mem=16GB
+#PBS -l walltime=23:59:00
+#PBS -J 0-99
+
+export LD_LIBRARY_PATH=/rds/general/user/.../home/gurobi952/linux64/lib:$LD_LIBRARY_PATH
+
+$HOME/DP-via-DRO-grids_new_GUROBI/a.out

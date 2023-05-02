@@ -33,10 +33,19 @@ The following is a guide to use this repository.
 
 </details>
 
+<details>
+<summary> <b> HPC Codes </b> </summary>
+  
+  This folder includes C++ compilation commands on the Imperial HPC's Linux Terminal as well as an example .PBS jobs file. 
+
+</details>
+
+
 ## Final Notes
 The following scripts are also available upon request:
 - The C++ codes that we supplied are the simple implementation of our cutting-plane algorithms. We have several modifications that were used on the HPC to run parallel jobs.
 - We shared how we cleaned datasets for two specific datasets. Similar codes for each of the datasets we used, and the final data itself are available upon request.
+- We provided some examples of HPC commands; however, for a specific PBS file, or a specific algorithm's parallelised implementation (to be able to run on the cluster computers), please get in touch with us.
 
 ## Thank You
 Thank you for your interest in our work. If you found this work useful in your research and/or applications, please star this repository and cite:

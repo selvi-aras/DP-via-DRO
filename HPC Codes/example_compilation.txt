@@ -1,0 +1,5 @@
+for the cluster GUROBI, use something like:
+gcc -std=c++14 *.cpp -I./ -I/apps/gurobi/9.0.1/linux64/include -L/apps/gurobi/9.0.1/linux64/lib -lgurobi_g++5.2 -lgurobi90 -L/apps/gcc/5.4.0/include -lstdc++ -lm -Ofast -DNDEBUG
+
+for local GUROBI, use something like:
+g++ main.cpp -o main.out -std=c++14 -I ~/gurobi952/linux64/include -L ~/gurobi952/linux64/lib -lgurobi95 -lgurobi_g++5.2
