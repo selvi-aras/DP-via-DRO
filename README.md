@@ -19,6 +19,18 @@ The following is a guide to use this repository.
 
 </details>
 
+<details>
+<summary> <b> Dataset Cook </b> </summary>
+  
+  This folder has two Python3 Jupyter Notebooks which shows how we cleaned datasets examples: one for naïve Bayes, and another one for proximal coordinate descent.
+
+</details>
+
+## Final Notes
+The following scripts are also available upon request:
+- The C++ codes that we supplied are the simple implementation of our cutting-plane algorithms. We have several modifications that were used on the HPC to run parallel jobs.
+- We shared how we cleaned datasets for two specific datasets. Similar codes for each of the datasets we used, and the final data itself are available upon request.
+
 ## Thank You
 Thank you for your interest in our work. If you found this work useful in your research and/or applications, please star this repository and cite:
 ```
