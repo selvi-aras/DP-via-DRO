@@ -1,7 +1,7 @@
 # Differential Privacy via Distributionally Robust Optimization
 GitHub supplement of the paper _Differential Privacy via Distributionally Robust Optimization_ (`DPviaDRO`) by Aras Selvi, Huikang Liu, and Wolfram Wiesemann (2023).
 
-The preprint is available on [Optimization Online](https://optimization-online.org/2023/04/differential-privacy-via-distributionally-robust-optimization/) and [arXiv](https://arxiv.org/abs/2304.12681). The paper was presented at the [Robust Optimization Webinars](https://youtu.be/HIfNWrQ-NS4).
+The preprint is available on [Optimization Online](https://optimization-online.org/2023/04/differential-privacy-via-distributionally-robust-optimization/) and [arXiv](https://arxiv.org/abs/2304.12681). The paper was presented at the [Robust Optimization Webinars](https://youtu.be/HIfNWrQ-NS4), [Rotman Young Scholar Seminar Series](https://sites.google.com/view/rotmanyoungscholarseminar/seminars?authuser=0), [SIAM Conference on Optimization](https://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=76794), [LBS Transatlantic Doctoral Conference](https://www.london.edu/phd/transatlantic-doctoral-conference), and Imperial College Business School.
 
 
 ## Description
