@@ -5,7 +5,7 @@ Include Packages
 #include <vector>       //to add vector<type> variables
 #include <chrono>       //to measure time ellapsed in a function
 #include "gurobi_c++.h" //Gurobi's functions
-#include <algorithm>    //I don't remember this -- delete?
+#include <algorithm>    
 #include <math.h>       //some maths functions
 #include <fstream>
 #include <sstream>
