@@ -21,6 +21,14 @@ The following is a guide to use this repository. The folder "GitHub Appendices" 
 </details>
 
 <details>
+<summary> <b> Multi-dimensional Data Independent Noise
+ </b> </summary>
+  
+  This folder includes the C++ codes for the 2D query optimization (both directly optimizing it, or computing the 2D guarantees of the product of two 1-D distributions) that we document in the GitHub App do not document in folder "GitHub Appendices" and file "GitHub_supplement.pdf" (pages 11-13). 
+
+</details>
+
+<details>
 <summary> <b> Dataset Cook </b> </summary>
   
   This folder has two Python3 Jupyter Notebooks which shows how we cleaned datasets examples: one for naïve Bayes, and another one for proximal coordinate descent.
