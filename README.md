@@ -24,7 +24,7 @@ The following is a guide to use this repository. The folder "GitHub Appendices" 
 <summary> <b> Multi-dimensional Data Independent Noise
  </b> </summary>
   
-  This folder includes the C++ codes for the 2D query optimization (both directly optimizing it, or computing the 2D guarantees of the product of two 1-D distributions) that we document in the GitHub App do not document in folder "GitHub Appendices" and file "GitHub_supplement.pdf" (pages 11-13). 
+  This folder includes the C++ codes for the 2D query optimization (both directly optimizing it, or computing the 2D guarantees of the product of two 1-D distributions) that we document in the folder "GitHub Appendices" and file "GitHub_supplement.pdf" (pages 11-13). Note that this is a preliminary study, and it is not included in the main paper.
 
 </details>
 
