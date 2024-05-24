@@ -59,8 +59,10 @@ The following is a guide to use this repository. The folder "GitHub Appendices" 
 ## Final Notes
 The following scripts are also available upon request:
 - The C++ codes that we supplied are the simple implementation of our cutting-plane algorithms. We have several modifications that were used on the HPC to run parallel jobs.
+- Different (including hand-crafted) loss functions, and corresponding analytical "speeding up" stages for the cutting-plane method. 
 - We shared how we cleaned datasets for two specific datasets. Similar codes for each of the datasets we used, and the final data itself are available upon request.
 - We provided some examples of HPC commands; however, for a specific PBS file, or a specific algorithm's parallelised implementation (to be able to run on the cluster computers), please get in touch with us.
+- We also have the codes of more visualizations that we did and did not report.
 
 ## Thank You
 Thank you for your interest in our work. If you found this work useful in your research and/or applications, please star this repository and cite:
